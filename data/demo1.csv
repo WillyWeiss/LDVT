@@ -1,0 +1,42 @@
+Date,Alert,Destination,Source
+08/22-22:14:17.787961,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:14:17.789028,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:14:17.789506,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:14:17.790141,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:15:05.438127,Consecutive TCP small segments exceeding threshold,157.240.1.54,192.168.1.109
+08/22-22:15:40.063701,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:15:41.064538,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:15:42.065570,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:15:43.066570,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:15:47.919798,PUA-P2P Bittorrent uTP peer request,192.168.1.109,79.119.193.185
+08/22-22:15:52.919736,PUA-P2P Bittorrent uTP peer request,192.168.1.109,72.223.80.83
+08/22-22:15:57.920348,PUA-P2P Bittorrent uTP peer request,192.168.1.109,62.210.211.224
+08/22-22:16:02.920129,PUA-P2P Bittorrent uTP peer request,192.168.1.109,37.48.111.167
+08/22-22:16:07.920809,PUA-P2P Bittorrent uTP peer request,192.168.1.109,95.182.173.141
+08/22-22:16:17.784394,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.784938,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.785339,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.786216,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.787819,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.788582,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.789025,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.789954,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.790450,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:16:17.791234,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:17:17.923666,PUA-P2P Bittorrent uTP peer request,192.168.1.109,79.119.179.188
+08/22-22:17:20.748444,(spp_sdf) SDF Combination Alert,91.189.88.152,192.168.1.109
+08/22-22:17:27.924106,PUA-P2P Bittorrent uTP peer request,192.168.1.109,82.28.184.193
+08/22-22:17:32.924393,PUA-P2P Bittorrent uTP peer request,192.168.1.109,5.12.133.124
+08/22-22:17:40.065855,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:17:41.068883,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:17:42.067874,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:17:43.068847,SCAN UPnP service discover attempt,192.168.1.104,239.255.255.250
+08/22-22:18:17.786915,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:18:17.787329,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:18:17.787948,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:18:17.788639,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:18:17.789595,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:18:17.790059,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:18:17.791041,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+08/22-22:18:17.792003,OS-WINDOWS Microsoft Windows UPnP malformed advertisement,192.168.1.1,239.255.255.250
+,,,

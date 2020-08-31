@@ -1,0 +1,141 @@
+<!-- 
+File Name: logs.html
+File Purpuse: Display security logs from csv into a HTML TABLE
+File Highlights : CSV to HTML convertor, originaly created by derekeder.
+Please support his work on https://github.com/derekeder/csv-to-html-table
+Created by: Willy Weiss
+Contact me on Linkedin: https://www.linkedin.com/in/willy-weiss/
+Contact me on Github: https://github.com/WillyWeiss-->
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    
+
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+    
+    <style type="text/css" media="screen">
+     * {
+       margin: 0; 
+       padding: 0;
+     }
+
+     div#banner { 
+       position: absolute; 
+       top: 0; 
+       left: 0; 
+       background-color: #DDEEEE; 
+       width: 100%; 
+     }
+     div#banner-content { 
+       width: 800px; 
+       margin: 0 auto; 
+       padding: 10px; 
+     }
+     div#main-content { 
+      padding-top: 70px;
+    }
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+color:white;
+  transform: translate(-50%, -50%);
+}
+        
+iframe{}
+        
+</style>
+    
+   <title>LDVT-Light Data Visualisation Tool</title>
+</head>
+<body>
+    <!--Place you Banner image here--> 
+<div id="banner">
+    <div style="position:absolute;top:0;left:0;width:100%;height:100%;">
+    
+      <img src="images/banner.jpg" width=100% height="70";> 
+         <div class="centered"><br><br><h2 style="text-shadow: 0 0 5px black, 0 0 10px #FFF, 0 0 15px #FFF">Light Data Visualisation Tool</h2></div>
+    </div>
+  </div>
+    <div id="main-content">
+   <!--NAVIGATION BAR--> 
+    <div id='cssmenu'>
+<ul>
+   <li><a href='index.html'><span>Home</span></a></li>
+   <li ><a href='network.html'><span>Network Monitor</span></a>
+   <li><a href='logs.html'><span>Security Report</span></a></li>
+   <li><a href='graphs.html'><span>Graphics</span></a></li>
+   <li><a href='about.html'><span>About</span></a></li>
+   <li class='last'><a href='sample.html'><span>Sample</span></a></li>
+</ul>
+</div>
+  
+         
+    <div id="main-content">
+       
+<h1>Thank tou derekeder dor this great tool</h1>
+      <h2>CSV to HTML Table</h2>
+      <p>Display any CSV file as a searchable, filterable, pretty HTML table. Done in 100% JavaScript.</p> 
+        <p>To use this particular tool please see <a href='https://github.com/derekeder/csv-to-html-table'>derekeder original Code on GitHub</a>.</p>
+
+      <p>This is a demo file.<br> To use your own data just copy the file inside the "/data" directory and point the script from this page to use your file.</p>
+      
+      <div id='table-container'></div>
+
+    </div><!-- /.container -->
+
+   
+</div>
+
+
+</body>
+    
+    <!--Reload Iframe script--> 
+          <script>
+        window.setInterval(function() {
+            reloadIFrame()
+        }, 1000);
+
+        function reloadIFrame() {
+            console.log('reloading..');
+     document.getElementById('iframe').contentWindow.location.reload();
+        }
+            <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+
+
+    <script type="text/javascript">
+      function format_link(link){
+        if (link)
+          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+        else
+          return "";
+      }
+
+      CsvToHtmlTable.init({
+        csv_path: 'data/demo1.csv',
+        element: 'table-container', 
+        allow_download: true,
+        csv_options: {separator: ',', delimiter: '"'},
+        datatables_options: {"paging": false},
+
+      });
+    </script>    
+    
+<html>
