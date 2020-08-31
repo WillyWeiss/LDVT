@@ -1,0 +1,38 @@
+#!/bin/bash
+#File Name: starts.me                                                 
+#Created by: Willy Weiss
+#Contact me on Linkedin: https://www.linkedin.com/in/willy-weiss/
+#Contact me on Github: https://github.com/WillyWeiss
+
+#Welcome to Light Data Visualtion Tool 
+#This is the START script. 
+#Please feel free to understand it and adapted to your own needs
+
+## Creating the visual part
+# Obtain the hostname in order to address the user:
+
+name=$(hostname)
+
+# Say hello to user and say what this script dose
+
+echo "Hello $name"
+sleep 2
+
+##First step is to make sure that all graphs are ploted 
+# feel free to add more scripts if you need.
+echo "First step....make sure that all graphics are ploted" 
+cd cgi-bin/graphs/ 
+gnuplot -p script.gnuplot 
+gnuplot -p script_2.gnuplot && cd ../../
+sleep 1
+
+
+#By default we use python3 to run the WebServer.
+
+echo "Starting Python3 Server" && sleep 1 && python3 -m http.server --cgi
+
+#You can also use PYTHON 2.7
+#Feel free to open reporter.py to adjust/change server variables
+#UNCOMMENT THE NEXT LINE
+
+#echo "Starting Python2.7 Server" && sleep 1 && python reporter.py 
